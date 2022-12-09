@@ -5,6 +5,6 @@ ublic class SackPacker {
     public SackPacker() 
     {
         title = "Sack Packer";
-        pay = 22.55;
+        pay = 16.55;
     }
 }
