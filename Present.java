@@ -6,8 +6,9 @@ public class Present {
     public Present() {
         isWrapped = false;
         isPacked = false;
+        presents++;
     }
 
-    public void wrap
+    
 
 }

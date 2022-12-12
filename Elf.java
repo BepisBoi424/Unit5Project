@@ -13,4 +13,7 @@ public class Elf
         
     }
     
+    public double getMoney() {
+        return Present.presents * pay;
+    }
 }
