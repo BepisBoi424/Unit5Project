@@ -1,5 +1,5 @@
 public class Job { 
-    private String title;
+    public String title;
     private double pay;
 
     public Job(String title, double pay)

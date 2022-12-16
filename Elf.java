@@ -12,7 +12,12 @@ public class Elf
         this.name = name;
         this.pay = pay;
         this.job = job;
+        elfCount++;
         
+    }
+
+    public String getJob() {
+        return job.title;
     }
 
     public int Pay() {
