@@ -7,6 +7,6 @@ public class Main {
         Job manager = new Job("Manager", 55.28);
 
 
-        //Test 2
+        //Test 3
     }
 }
