@@ -8,4 +8,7 @@ public class Job {
         this.pay = pay;
     }
     
+    public double getPay() {
+        return pay;
+    }
 }

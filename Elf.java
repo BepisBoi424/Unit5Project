@@ -10,7 +10,7 @@ public class Elf
     public Elf(String name, double pay, Job job) 
     {
         this.name = name;
-        this.pay = pay;
+        this.pay = job.getPay();
         this.job = job;
         elfCount++;
         
@@ -20,11 +20,15 @@ public class Elf
         return job.title;
     }
 
-    public int Pay() {
+    public void pay() {
         totalMoney += pay;
     }
     
     public double getMoney() {
         return Present.presents * pay;
+    }
+    
+    public String toString() {
+        return name + " has made " + totalMoney;
     }
 }
