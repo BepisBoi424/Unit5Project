@@ -29,6 +29,6 @@ public class Elf
     }
     
     public String toString() {
-        return name + " has made " + totalMoney;
+        return name + " has made $" + Math.round(totalMoney);
     }
 }

@@ -3,7 +3,7 @@ public class Present {
     private boolean isPacked;
     public static int presents;
 
-
+    // Constructor with elf for paying maker
     public Present(Elf elf) {
         if(elf.getJob().equals("Toy Maker")) 
         {
@@ -19,6 +19,12 @@ public class Present {
     }
 
 
+    /**
+    Wraps the present
+    Precondition: Elf object must be created and initialized
+    Postcondition: isWrapped variable is set to true
+    @param elf - the elf that wraps the present to check it's job
+    */
     public void wrap(Elf elf) 
     {
         if(elf.getJob().equals("Gift Wrapper")) 
