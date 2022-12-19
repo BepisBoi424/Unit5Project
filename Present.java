@@ -21,7 +21,7 @@ public class Present {
 
     /**
     Wraps the present
-    Precondition: Elf object must be created and initialized
+    Precondition: Elf object must be created and initialized with job "Gift Wrapper"
     Postcondition: isWrapped variable is set to true
     @param elf - the elf that wraps the present to check it's job
     */
@@ -38,7 +38,12 @@ public class Present {
         }
     }
 
-
+    /**
+    Packs the present
+    Precondition: Elf object must be created and initialized with job "Sack Packer"
+    Postcondition: isPacked variable is set to true
+    @param elf - the elf that wraps the present to check it's job
+    */
     public void pack(Elf elf) 
     {
 
@@ -53,6 +58,12 @@ public class Present {
         }
     }
 
+    /**
+    Checks the quality
+    Precondition: Elf object must be created and initialized with job "Manager"
+    Postcondition: Manager elf gets paid
+    @param elf - the elf that wraps the present to check it's job
+    */
     public void qualityControl(Elf elf) {
         if(elf.getJob().equals("Manager")) 
         {
